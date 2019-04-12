@@ -9,14 +9,15 @@ Gem::Specification.new do |s|
   s.version     = Blorgh::VERSION
   s.authors     = ["liuchunliang"]
   s.email       = ["Chunliang.Liu@abcam.com"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of Blorgh."
-  s.description = "TODO: Description of Blorgh."
+  s.homepage    = "http://blog.liu_xiaodao.top"
+  s.summary     = "Tet Engine"
+  s.description = "Tet Engine."
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
 
-  s.add_dependency "rails", "~> 5.1.6", ">= 5.1.6.1"
+  s.add_dependency "rails", "~> 5.1.6"
+  s.add_dependency "rest-client"
 
   s.add_development_dependency "sqlite3"
 end
