@@ -6,7 +6,8 @@ module Blorgh
 
     # GET /articles
     def index
-      @articles = Article.all
+      puts params[:list]
+      return render plain: Stock.new().get_stock_price
     end
 
     # GET /articles/1
