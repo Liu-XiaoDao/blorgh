@@ -30,7 +30,7 @@ module Blorgh
               fetch_price("/blog", function(price){
                 document.getElementById("show_price").innerHTML = price;
               });
-            }, 500);
+            }, 2000);
           </script>
         }
         response = Rack::Response.new([], @status, @headers)

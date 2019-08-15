@@ -2,7 +2,7 @@ module Blorgh
   class Stock
     def initialize()
       @base_url = "http://hq.sinajs.cn/list="
-      @stock_list = "sh600596"
+      @stock_list = "sh601298"
       @stock_price = ""
     end
 
